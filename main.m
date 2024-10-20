@@ -1,5 +1,5 @@
 % 1. LOADING THE IMAGE
-originalImage = imread('image1.jpg');
+originalImage = imread('image3.jpg');
 grayImage = rgb2gray(originalImage); 
 
 %% 
@@ -35,7 +35,7 @@ for step = 1:num_portion
     reconstructed_image = abs(ifft2(ifftshift(reconstruction)));
 
     % Saving step wise image to device
-    filename = sprintf('E:/codes/image-through-waves/images1/reconstructed_step_%d.png', step);
+    filename = sprintf('E:/codes/image-through-waves/images3/reconstructed_step_%d.png', step);
     imwrite(uint8(reconstructed_image), filename);
 
 end
