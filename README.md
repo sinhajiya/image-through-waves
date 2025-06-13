@@ -2,6 +2,9 @@
 
 Creating images by a combination of different waves.
 
+
+Inspired by: [Every picture is made of waves - Sixty Symbols](https://www.youtube.com/watch?v=mEN7DTdHbAU&t=306s)
+
 ### Concept:
 
 Each image is made of combination of waves of different wavelength, frequency and amplitudes.
